@@ -35,3 +35,7 @@ function currentTime() {
 }
 
 setInterval(currentTime, 1000)
+
+navigator.geolocation.getCurrentPosition(position => {
+    console.log(position)
+});
