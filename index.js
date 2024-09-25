@@ -31,3 +31,5 @@ fetch("https://api.coingecko.com/api/v3/coins/dogecoin")
 const time = new Date()
 const displayT = time.toLocaleTimeString('en-Za', {timeStyle: "short"})
 document.getElementById("time").textContent = displayT
+
+setInterval(fn, 1000)
