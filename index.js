@@ -29,4 +29,4 @@ fetch("https://api.coingecko.com/api/v3/coins/dogecoin")
     .catch(err => console.error(err))
 
 let time = new Date()
-console.log(time.toLocaleTimeString('en-Za', {hour12: true, hour:"2-digit", minute:"2-digit"}))
+console.log(time.toLocaleTimeString('en-Za', {timeStyle: "short"}))
