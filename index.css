@@ -12,4 +12,17 @@ body {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     text-shadow: 2px 1px 2px #474747;
+    padding: 0px 10px;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.top {
+    display: flex;
+    justify-content: space-between;
 }
