@@ -27,6 +27,19 @@ div.top {
     justify-content: space-between;
 }
 
+div#crypto-info {
+    font-size: 1.3rem;
+}
+
+#crypto {
+    display: flex;
+    align-items: center;
+} 
+
+p#crypto > span {
+    margin-left: 10px;
+}
+
 h1 {
     text-align: center;
 }
