@@ -11,7 +11,7 @@ body {
     background-size: cover;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    text-shadow: 2px 1px 2px #474747;
+    text-shadow: 0px 0px 20px #aaaaaa;
     padding: 0px 10px;
 }
 
@@ -25,4 +25,8 @@ main {
 div.top {
     display: flex;
     justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
 }
