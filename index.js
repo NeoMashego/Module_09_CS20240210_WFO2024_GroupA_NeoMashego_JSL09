@@ -12,7 +12,11 @@ fetch("https://apis.scrimba.com/unsplash/photos/random?orientation=landscape&que
     })
 
 fetch("https://api.coingecko.com/api/v3/coins/dogecoin")
-    .then(res => res.json())
+    .then(res => {
+        if(!res.ok){
+            throw Error("Find error!")
+        }
+        return res.json()})
     .then(data => {
         document.getElementById("crypto").innerHTML = `
         <img src=${data.image.small}>
