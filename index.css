@@ -1,7 +1,6 @@
-html, body {
-    margin: 0;
-    padding: 0;
-}
+* {
+    box-sizing: border-box;
+}  
 
 body {
     background: no-repeat center center fixed; 
@@ -12,10 +11,10 @@ body {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     text-shadow: 0px 0px 20px #aaaaaa;
-    padding: 0px 10px;
 }
 
 main {
+    padding: 15px;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -31,9 +30,14 @@ div#crypto-info {
     font-size: 1.3rem;
 }
 
+#crypto-info > p {
+    margin: 0;
+}
+
 #crypto {
     display: flex;
     align-items: center;
+    margin-bottom: 5px;
 } 
 
 p#crypto > span {
