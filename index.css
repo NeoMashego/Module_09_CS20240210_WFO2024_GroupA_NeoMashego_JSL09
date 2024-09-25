@@ -9,4 +9,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 2px 2px #474747;
 }
